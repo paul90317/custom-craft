@@ -1,0 +1,20 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type":"item",
+                    "name": "minecraft:cow_spawn_egg",
+                    "functions": [
+                        {
+                            "function":"set_nbt",
+                            "tag": "{EntityTag:{id:\"minecraft:area_effect_cloud\",Tags:[eg.wt]},'display':{'Name':'{\"text\":\"Working Table\",\"italic\":false,\"color\":\"dark_green\"}','Lore':[]},'CustomModelData':1505}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

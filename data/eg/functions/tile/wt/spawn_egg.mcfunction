@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {CustomNameVisible:1b,CustomName:'{"text":"Working Table","italic":false,"color":"dark_green"}',Motion:[0.0,0.12,0.0],Item:{Count:1b,id:"minecraft:cow_spawn_egg",tag:{EntityTag:{id:"minecraft:area_effect_cloud",Tags:[eg.wt]},'display':{'Name':'{"text":"Working Table","italic":false,"color":"dark_green"}','Lore':[]},'CustomModelData':1505}}}

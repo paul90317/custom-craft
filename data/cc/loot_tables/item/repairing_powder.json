@@ -1,0 +1,24 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:binding_curse\",lvl:1}],HideFlags:1,display:{Name:'{\"text\":\"Repairing Powder\",\"color\":\"yellow\",\"italic\": false}'},cc:{is:1b,type:repairing_powder}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

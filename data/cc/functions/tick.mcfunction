@@ -1,0 +1,2 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:stone_pickaxe",Count:1b},OnGround:1b}] at @s if block ~ ~-1 ~ crafting_table positioned ~ ~-1 ~ run function cc:wt/load
+execute as @e[type=item,nbt={Item:{id:"minecraft:writable_book",Count:1b},OnGround:1b}] at @s if block ~ ~-1 ~ bookshelf positioned ~ ~-1 ~ run function cc:st/load
