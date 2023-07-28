@@ -1,0 +1,32 @@
+id: large_backpack
+type: drop
+block: minecraft:barrel
+item:
+  id: minecraft:leather_chestplate
+  tag: 
+    display:
+      Name: {text: Backpack, italic: false}
+    Unbreakable: true
+    HideFlags: 127
+    AttributeModifiers: []
+    CustomModelData: 148403
+
+website: https://modrinth.com/datapack/upgradable-backpack
+
+destroy: function backpack:on/destroy
+load: function backpack:on/load
+
+slot:
+  26:
+    type: label
+    item:
+      id: minecraft:barrier
+      tag:
+        display:
+          Name: {text: Close, color: red, italic: false}
+        CustomModelData: 1506
+    click: 'function eg:tile/backpack/destroy'
+  0..25:
+    type: drop
+    cond: if
+    data: 'eg'

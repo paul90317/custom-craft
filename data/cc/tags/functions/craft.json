@@ -1,4 +1,7 @@
 {
     "values": [
+        "backpack:recipe/backpack/check",
+        "backpack:recipe/big_backpack/check",
+        "backpack:recipe/large_backpack/check"
     ]
 }
