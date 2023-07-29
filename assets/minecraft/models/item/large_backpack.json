@@ -1,0 +1,13 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/large_backpack",
+		"layer1": "item/large_backpack_overlay"
+	},
+	"display": {
+		"fixed": {
+			"translation": [0, 0, -32],
+			"scale": [1.4, 1.4, 2]
+		}
+	}
+}
