@@ -1,0 +1,26 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/light_blue_dye"
+    },
+    "overrides": [
+        {
+            "model": "minecraft:cc_scribe",
+            "predicate": {
+                "custom_model_data": 1501
+            }
+        },
+        {
+            "model": "minecraft:cc_craft",
+            "predicate": {
+                "custom_model_data": 1502
+            }
+        },
+        {
+            "model": "minecraft:cc_ban",
+            "predicate": {
+                "custom_model_data": 1503
+            }
+        }
+    ]
+}

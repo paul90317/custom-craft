@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:item/template_spawn_egg",
+  "overrides": [
+    {
+      "model": "minecraft:scribing_table_entity",
+      "predicate": {
+        "custom_model_data": 1504
+      }
+    },
+    {
+      "model": "minecraft:working_table_entity",
+      "predicate": {
+        "custom_model_data": 1505
+      }
+    }
+  ]
+}
