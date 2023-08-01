@@ -1,0 +1,6 @@
+[
+    {
+        "function": "set_nbt",
+        "tag": "{display:{Name:'{\"text\":\"Enderite Elytra\",\"italic\": false,\"color\":\"dark_purple\"}'}}"
+    }
+]

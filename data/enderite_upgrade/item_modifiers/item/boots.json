@@ -1,0 +1,32 @@
+[
+    {
+        "function": "set_attributes",
+        "modifiers": [
+            {
+                "name": "a",
+                "attribute": "generic.armor",
+                "amount": 3,
+                "operation": "addition",
+                "slot": "feet"
+            },
+            {
+                "name": "a",
+                "attribute": "generic.armor_toughness",
+                "amount": 5,
+                "operation": "addition",
+                "slot": "feet"
+            },
+            {
+                "name": "a",
+                "attribute": "generic.knockback_resistance",
+                "amount": 0.2,
+                "operation": "addition",
+                "slot": "feet"
+            }
+        ]
+    },
+    {
+        "function": "set_nbt",
+        "tag": "{display:{Name:'{\"text\":\"Enderite Boots\",\"italic\": false,\"color\":\"dark_purple\"}'}}"
+    }
+]

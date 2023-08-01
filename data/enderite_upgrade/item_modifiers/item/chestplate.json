@@ -1,0 +1,32 @@
+[
+    {
+        "function": "set_attributes",
+        "modifiers": [
+            {
+                "name": "a",
+                "attribute": "generic.armor",
+                "amount": 8,
+                "operation": "addition",
+                "slot": "chest"
+            },
+            {
+                "name": "a",
+                "attribute": "generic.armor_toughness",
+                "amount": 5,
+                "operation": "addition",
+                "slot": "chest"
+            },
+            {
+                "name": "a",
+                "attribute": "generic.knockback_resistance",
+                "amount": 0.2,
+                "operation": "addition",
+                "slot": "chest"
+            }
+        ]
+    },
+    {
+        "function": "set_nbt",
+        "tag": "{display:{Name:'{\"text\":\"Enderite Chestplate\",\"italic\": false,\"color\":\"dark_purple\"}'}}"
+    }
+]

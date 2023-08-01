@@ -1,0 +1,25 @@
+[
+    {
+        "function": "set_attributes",
+        "modifiers": [
+            {
+                "name": "a",
+                "attribute": "generic.attack_damage",
+                "amount": 6,
+                "operation": "addition",
+                "slot": "mainhand"
+            },
+            {
+                "name": "a",
+                "attribute": "generic.attack_speed",
+                "amount": -2.8,
+                "operation": "addition",
+                "slot": "mainhand"
+            }
+        ]
+    },
+    {
+        "function": "set_nbt",
+        "tag": "{display:{Name:'{\"text\":\"Enderite Pickaxe\",\"italic\": false,\"color\":\"dark_purple\"}'}}"
+    }
+]
