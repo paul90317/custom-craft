@@ -26,11 +26,11 @@ slot:
   26:
     type: label
     item:
-      id: minecraft:barrier
+      id: minecraft:light_blue_dye
       tag:
         display:
           Name: {text: Close, color: red, italic: false}
-        CustomModelData: 1506
+        CustomModelData: 1505
     click: 'function eg:tile/backpack/destroy'
   0..17:
     type: drop
