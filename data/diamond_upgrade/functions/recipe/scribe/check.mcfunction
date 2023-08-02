@@ -1,0 +1,1 @@
+execute if data block ~ ~ ~ Items[{Slot:12b,tag:{cc:{type:diamond_ingot}}}] run function diamond_upgrade:recipe/scribe/check2
