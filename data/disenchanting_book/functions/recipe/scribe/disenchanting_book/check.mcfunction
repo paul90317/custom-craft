@@ -1,0 +1,2 @@
+execute if data block ~ ~ ~ Items[{Slot:12b,tag:{cc:{type:disenchanting_book}}}] if data block ~ ~ ~ Items[{Slot:10b}].tag.Enchantments[0] run function disenchanting_book:recipe/scribe/disenchanting_book/deal_eq
+execute if data block ~ ~ ~ Items[{Slot:12b,tag:{cc:{type:disenchanting_book}}}] if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:enchanted_book"}].tag.StoredEnchantments[1] run function disenchanting_book:recipe/scribe/disenchanting_book/deal_bk
