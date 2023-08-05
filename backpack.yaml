@@ -20,13 +20,13 @@ slot:
   0..8,18..25:
     type: label
     item:
-      id: minecraft:light_blue_dye
+      id: minecraft:clay_ball
       tag:
         CustomModelData: 1503
   26:
     type: label
     item:
-      id: minecraft:light_blue_dye
+      id: minecraft:clay_ball
       tag:
         display:
           Name: {text: Close, color: red, italic: false}
