@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "light_blue_dye",
+                    "name": "clay_ball",
                     "functions": [
                         {
                             "function": "set_nbt",
